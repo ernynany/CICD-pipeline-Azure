@@ -1,2 +1,6 @@
 pylint
 pytest
+flask
+pandas
+scikit-learn
+joblib

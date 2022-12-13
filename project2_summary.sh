@@ -52,3 +52,21 @@ Configuring a SaaS build server is the final step of continuous Integration and 
 1. enabled GitHub  Actions
 2. copy the file pythonapp.yml to replace the yml file you see there ---> this is responsible for triggering the GitHub action container to perform a set of function
 3. push the changes to GitHub and verify that both lint and test steps pass in your project
+
+# Next ---> Continuous Delivery: Final Step of the CI/CD
+# this step involves setting up an Azure Pipeline to deploy a flask application to Azure App Service
+
+get the starter code from here ----> https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/app.py
+replce the app.py with this starter code
+
+# the CD of flask application using Azure pipeline and Azure App service
+from Azure console:
+1. enable source control Integration on Azure pipeline 
+2. select Azure pipeline to build server
+Note: you can also use GitHub Actions to perform CD
+https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python?view=azure-devops&WT.mc_id=udacity_learn-wwl ---> sign in to Azure DevOps organization and create a  project
+nosaobamwonyi --> My Azure DevOps  ps organization
+create a pipeline ---> 
+
+# THE CD STEPS
+1. update your repo with the Flask-starter code
