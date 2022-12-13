@@ -70,3 +70,12 @@ create a pipeline --->
 
 # THE CD STEPS
 1. update your repo with the Flask-starter code
+2. start the python flask application ----> python app.py --> take note of the port the web app is listening on
+
+3. open a new shell and run location presiction:
+./make_prediction.sh  # be sure the file has the appropriate permission
+
+# Next, run a remote prediction
+1. first start the Azure webapp  service on your cloud shell environment
+az webapp up -n <your_preferred_name> # by default, this will create a resorce group if non is specified. it also created a service plan for the webapp.
+
