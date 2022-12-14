@@ -30,3 +30,4 @@ class WebsiteUser(HttpUser):
                 "0":4.98
             }
         })
+        

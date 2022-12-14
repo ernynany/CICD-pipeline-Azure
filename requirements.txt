@@ -1,6 +1,9 @@
 pylint
 pytest
-flask
+Flask
 pandas
 scikit-learn
+jinja2
+locust
 joblib
+importlib-metadata
