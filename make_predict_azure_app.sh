@@ -46,5 +46,6 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://cicdproject2.azurewebsites.net:$PORT/predict
+     -X POST https://azure-cicd-project2.azurewebsites.net:$PORT/predict
      #your application name <yourappname>goes here
+     # https://azure-cicd-project2.azurewebsites.net/

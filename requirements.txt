@@ -5,5 +5,5 @@ pandas
 scikit-learn
 jinja2
 locust
-joblib
 importlib-metadata
+joblib
