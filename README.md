@@ -5,26 +5,13 @@ Tasks Summary:
 - Github actions - Continuous Integration
 - Azure pipeline and Azure App service - Continuous Deployment
 
-# Overview
-This is a second Project of the Udacity Devops training: Building a CI/CD Pipeline
-A summary of the Task Performed in this project include:
-- Using Github actions with Makefile and requirement.txt
-- Using Application code to perform initial lint, test and install cycle
-- intergration of the Project with Azure Pipeline to enable continuous Delivery to Azure App Service
-
-
 # Project Plan
 ## Project Spreadsheet
 This Spreadsheet shows a detailed weekly, quarterly and Yearly plan for the Project.
-[Spreadsheet link](https://docs.google.com/spreadsheets/d/1xy7B-lyBBW9qWSJhsjvouWkt3abNHoRkGnAv9fvSJII/edit#gid=1348135932)
+[Spreadsheet link](https://docs.google.com/spreadsheets/d/1pYLdA0_Y1qFRxfJB1XAqbG9uTMH4bOtcGZQinWYdgek/edit?pli=1#gid=1348135932)
 ## Trello Board
 This Trello Board shows a simple work flow of To-dos, In-Progress and Completed Project Tasks
-[Trello link](https://trello.com/b/UZPqIj7M/project2-azure-devops-training)
-
-## Architectural Diagram
-This diagram shows the workflow of the Project
-![screenshot1](https://github.com/Uchejen/Project2-azure-cloud-shell/blob/main/Screenshots/Architectural_Diagram.JPG?raw=true)
-
+[Trello link](https://trello.com/b/xpcRdzSP/ci-cd-project)
 
 # CI: Set Up Azure Cloud Shell
 ## Project Cloned Into Azure Cloud Shell
@@ -101,5 +88,4 @@ Finally, everything was pushed back to gitHub
 # Demo Video
 The video shows a live demo of the working of the Project
 [Demo](https://youtu.be/r6Oxxiq6pDI)
-
 
