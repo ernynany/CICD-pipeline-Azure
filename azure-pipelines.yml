@@ -8,16 +8,16 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: 'f96c537d-2159-4c47-b2f4-385fdb7c203d'
+  azureServiceConnectionId: '8f5028a0-c9ed-4a1f-9ec0-2fceb24d9279'
 
   # Web app name
-  webAppName: 'azurepipeline'
+  webAppName: 'azure-cicd-project2'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'NewProjecttwo'
+  environmentName: 'azure-cicd-project2'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
@@ -80,7 +80,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : NewProjecttwo'
+            displayName: 'Deploy Azure Web App : azure-cicd-project2'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
