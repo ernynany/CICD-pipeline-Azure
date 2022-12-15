@@ -6,15 +6,18 @@
 trigger:
 - main
 
+pool:
+  name: Default
+
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: '30d9e8d7-93c9-46ae-b2c6-cc0d03c2ba11'
+  azureServiceConnectionName: 'project2_new'
 
   # Web app name
   webAppName: 'azure-cicd-project2'
 
   # Agent VM image name
-  vmImageName: 'Default'
+  vmImageName: 'project2-vm'
 
   # Environment name
   environmentName: 'azure-cicd-project2'
@@ -82,6 +85,6 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Deploy Azure Web App : azure-cicd-project2'
             inputs:
-              azureSubscription: $(azureServiceConnectionId)
+              azureSubscription: $(azureServiceConnectionName)
               appName: $(webAppName)
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
