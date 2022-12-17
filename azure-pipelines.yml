@@ -6,12 +6,9 @@
 trigger:
 - main
 
-pool:
-  name: Default
-
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: '30d9e8d7-93c9-46ae-b2c6-cc0d03c2ba11'
+  azureServiceConnectionId: 'f96c537d-2159-4c47-b2f4-385fdb7c203d'
 
   # Web app name
   webAppName: 'azure-cicd-project2'
@@ -83,7 +80,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : azure-cicd-project2'
+            displayName: 'Deploy Azure Web App : NewProjecttwo'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
