@@ -6,22 +6,23 @@
 trigger:
 - main
 
-pool:
-  name: Default
-
 variables:
   # Azure Resource Manager connection created during pipeline creation
+<<<<<<< HEAD
 <<<<<<< HEAD
   azureServiceConnectionId: '8f5028a0-c9ed-4a1f-9ec0-2fceb24d9279'
 =======
   azureServiceConnectionId: '30d9e8d7-93c9-46ae-b2c6-cc0d03c2ba11'
 >>>>>>> 6fcc071f8e10346b695b5466d94e5e532732927a
+=======
+  azureServiceConnectionId: '1855a4cf-d564-42fb-8db5-243b6661ba26'
+>>>>>>> 98852a94d32f494aad8843c36294da253bda52b2
 
   # Web app name
   webAppName: 'azure-cicd-project2'
 
   # Agent VM image name
-  vmImageName: 'project2-vm'
+  vmImageName: 'ubuntu-latest'
 
   # Environment name
   environmentName: 'azure-cicd-project2'
