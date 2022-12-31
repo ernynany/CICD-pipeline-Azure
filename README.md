@@ -36,6 +36,7 @@ I created a Makefile, requirements.txt in Azure cloud Shell and added the codes 
 
 ## Local test
 The screenshot below shows how the project script and the test script were created. it also shows how the make all command was run and the ouput of the test
+![screenshot1](images-project2/makeall1.PNG "screenshot1")
 ![screenshot1](images-project2/makeall.PNG "screenshot1")
 
 ## CI: Configure Github Actions
